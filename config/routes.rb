@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root 'todo_items#index'
+
+  root 'tasks#index'
   resources :todo_items
+  resources :tasks
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
